@@ -6,7 +6,7 @@ const Projects = () => {
       <h1 style={{ textAlign: "center" }}>Portfolio</h1>
       <div className="projects">
         <div>
-          <a href="https://haruna.netlify.app/" target="_blank">
+          <a href="https://cosmic-platypus-36c3f0.netlify.app/" target="_blank">
             <img src="crypto.jpg" alt="" />
           </a>{" "}
           <br />
@@ -18,8 +18,8 @@ const Projects = () => {
             crypto news e.t.c <br />
             <b>Status:&nbsp;</b>Not live
             <div className="link">
-            <a href="https://github.com/Jubril07/Test"><button>Live link</button></a>
-              <a href="https://github.com/Jubril07/Test"><button>Github</button></a>
+            <a href="https://cosmic-platypus-36c3f0.netlify.app/" target='_blank'><button>Live link</button></a>
+              <a href="https://github.com/Jubril07/crypto-price-tracker"><button>Github</button></a>
             </div>
           </div>
         </div>
@@ -35,7 +35,7 @@ const Projects = () => {
             <br />
             <b>Status:&nbsp;</b>Live
             <div className="link">
-            <a href="https://github.com/Jubril07/Test"><button>Live link</button></a>
+            <a href="https://quiet-pudding-e8cb08.netlify.app/"><button>Live link</button></a>
               <a href="https://github.com/Jubril07/Test"><button>Github</button></a>
             </div>
           </div>         
@@ -69,8 +69,8 @@ const Projects = () => {
             <b> Features:&nbsp;</b>Made with React.js <br />
             <b>Status:&nbsp;</b>Live
             <div className="link">
-            <a href="https://github.com/Jubril07/Test"><button>Live link</button></a>
-              <a href="https://github.com/Jubril07/Test"><button>Github</button></a>
+            <a href="https://haruna.netlify.app/" target="_blank"><button>Live link</button></a>
+              <a href="https://github.com/Jubril07/Portfolio-one"><button>Github</button></a>
             </div>
           </div>
         </div>
