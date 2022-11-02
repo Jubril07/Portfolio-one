@@ -6,7 +6,7 @@ const Contact = () => {
       <h1 style={{ textAlign: "center" }}>Contact Me</h1>
       <div className="contact-info">
         <div className="contact-me-msg">
-          <p>
+          <p> 
             Hello there, feel free to contact me at any time, I will get back to
             you within 48hrs and if it's urgent, reaching me through my social
             handle would be better in situations like this.

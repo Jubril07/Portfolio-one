@@ -44,7 +44,7 @@ const Skills = () => {
           <img src="git.jpg" alt="" />
           <br />
           <br />
-          GIT
+          GIT 
         </div>
       </div>
     </div>

@@ -2,12 +2,12 @@ const Experience = () => {
   return (
     <div className="experiences" id="experience">
       <h1 style={{ textAlign: "center" }}>Experiences</h1>
-      <div className="experience">
+      <div className="experience"> 
         <h1>
           <span style={{ fontSize: "50px", color: "lime" }}>.</span> Frontend
           Developer
         </h1>
-        <p>@Hivend</p>
+        <p>@Hivend</p> 
         <p>Lagos, Nigeria</p>
         <p>
           Worked with a team of fellow Gen-Zs on an Edtech start-up called

@@ -57,11 +57,11 @@ a {
 
 .skill-div div {
   width: 220px;
-  height: 130px;
+  height: 150px;
   background-color: rgb(77, 73, 73);
   margin: 0 auto;
   margin-top: 30px;
-  padding: 30px;
+  padding: 20px;
   border-radius: 10px;
   transition: width 2s ease;
 }
@@ -91,17 +91,19 @@ a {
 .projects {
   text-align: center;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
   grid-gap: 10px;
   padding: 10px;
 }
 .projects div{
   background: rgb(83, 80, 80);
-  padding: 30px;
+  padding: 10px;
+  padding-top: 30px;
   border-radius: 20px;
 }
 .projects div img{
   border-radius: 10px;
+  cursor: pointer;
 }
 .link{
   display: flex;
@@ -109,7 +111,7 @@ a {
 }
 div.link a button{
   cursor: pointer;
-  width: 100px;
+  width: 90px;
   height: 2rem;
   border-radius: 5px;
 }
@@ -137,7 +139,9 @@ div.link a button{
 }
 
 .experiences {
-  padding: 10px;
+  padding: 20px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
 }
 
 .contact {
@@ -151,6 +155,26 @@ div.link a button{
   text-align: center;
   width: 80%;
   margin: 0 auto;
+}
+.contact-me-msg{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input[type='text'],input[type='email']{
+  width: 17rem;
+  height: 2rem;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid rgb(58, 55, 55);
+  font-size: large;
+}
+textarea{
+  font-size: large;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 @media only screen and (min-width: 700px) {
@@ -189,6 +213,9 @@ div.link a button{
   .experience {
     width: 60%;
   }
+  .experiences{
+    font-size: large;
+  }
 
   .contact-info {
     display: flex;
@@ -197,8 +224,10 @@ div.link a button{
 
   .contact-me-msg {
     width: 40%;
+    margin-top: 7%;
+   font-size: large;
   }
-  .link{
-    justify-content: space-around;
+  .projects{
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
   }
 }

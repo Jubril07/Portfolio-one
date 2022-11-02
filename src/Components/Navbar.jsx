@@ -13,7 +13,7 @@ const Navbar = () => {
         <a href="#portfolio">Portfolio</a>
         <a href="#skills">Skills</a>
         <a href="#experience">Experience</a>
-        <a href="public/one.jpg" download='one.jpg' ><button>Download CV</button></a>
+        <a href="public/one.jpg" download='one.jpg' ><button className="button">Download CV</button></a>
         <button onClick={showNavbar} className="nav-btn nav-close-btn">
           <FaTimes />
         </button>
